@@ -1,0 +1,38 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: #1b262c;
+    border-bottom: 2px solid #3282b8;
+    padding: 20px;
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0px 20px;
+}
+
+.active-page {
+    color: #3282b8;
+    font-weight: bold;
+}
+
+li > a {
+    color: #bbe1fa;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: #eee8d5;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
