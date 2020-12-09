@@ -1,0 +1,24 @@
+---
+- category: Programming
+  skills:
+    - name: Python
+      rating: 4
+    - name: HTML
+      rating: 3
+    - name: CSS
+      rating: 3
+    - name: JavaScript
+      rating: 2
+- category: Other
+  skills:
+    - name: Writing
+      rating: 4
+    - name: Photoshop
+      rating: 3
+- category: Electrical
+  skills: 
+    - name: Wiring
+      rating: 5
+    - name: Conduit Bending
+      rating: 4
+    

@@ -1,0 +1,19 @@
+---
+schools:
+  - name: "Southern California Institute of Technology"
+    location: "Anaheim, CA"
+    subject: "Electrician Training Program"
+    duration: "1 year"
+    graduation: "Oct 2017"
+    gpa: 4.0
+  - name: "Orange Coast College"
+    location: "Costa Mesa, CA"
+    subject: "General Education"
+    duration: "1+ years"
+    graduation: null
+    gpa: 3.6
+certificates:
+  - "California Electrical Trainee"
+  - "Refinery Safety Overview"
+  - "OSHA Basic Safety Training"
+  - ""

@@ -13,14 +13,17 @@
 <body>
     <nav class="sticky">
         <ul class="nav-bar">
-            <li class="nav-link">
-                <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a>
+            <li class="nav-link brand">
+                <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>dspence.net</a>
             </li>
             <li class="nav-link push">
-                <a href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a>
+                <a href="/portfolio" {% if page.title == "Portfolio" %}class="active-page"{% endif %}>Portfolio</a>
             </li>
             <li class="nav-link">
                 <a href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a>
+            </li>
+            <li class="nav-link">
+                <a href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a>
             </li>
             <li class="nav-link">
                 <a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a>
@@ -31,7 +34,7 @@
         {{ content }}
     </main>
     <footer>
-        Copyright Dan Spencer (2020)
+        <span id="copyright">Copyright Dan Spencer (2020-{{ "now" | date:"%Y" }})</span>
     </footer>
 </body>
 </html>
