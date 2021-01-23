@@ -11,30 +11,42 @@
     <title>{{ page.title }} | {{ site.title }}</title>
 </head>
 <body>
-    <nav class="sticky">
-        <ul class="nav-bar">
-            <li class="nav-link brand">
-                <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>dspence.net</a>
+    <header id="navbar">
+      <nav class="navbar-container container">
+        <a href="/" class="home-link">
+          <div class="navbar-logo"></div>
+          dspence.net
+        </a>
+        <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link" href="/portfolio" {% if page.title == "Portfolio" %}class="active-page"{% endif %}>Portfolio</a>
             </li>
-            <li class="nav-link push">
-                <a href="/portfolio" {% if page.title == "Portfolio" %}class="active-page"{% endif %}>Portfolio</a>
+            <li class="navbar-item">
+              <a class="navbar-link" href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a>
             </li>
-            <li class="nav-link">
-                <a href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a>
+            <li class="navbar-item">
+              <a class="navbar-link" href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a>
             </li>
-            <li class="nav-link">
-                <a href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a>
+            <li class="navbar-item">
+              <a class="navbar-link" href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a>
             </li>
-            <li class="nav-link">
-                <a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a>
-            </li>
-        </ul>
-    </nav>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main class="page-content">
         {{ content }}
     </main>
     <footer>
         <span id="copyright">Dan Spencer © {{ "now" | date:"%Y" }}</span>
     </footer>
+    
+    <script src="/assets/scripts/default.js"></script>
 </body>
 </html>
