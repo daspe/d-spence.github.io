@@ -4,5 +4,28 @@ title: Portfolio
 permalink: /portfolio
 ---
 
-
+<div class="container">
+  <div id="portfolio">
+    <div class="pf-container pf-projects">
+      <h3 class="pf-heading">Projects</h1>
+    </div>
+    <div class="pf-container pf-skills">
+      <h3 class="pf-heading">Skills</h4>
+        {% for item in site.data.skills %}
+          <h4>{{item.category}}:</h5>
+          <ul>
+          {% for skill in item.skills %}
+            <li class="skill">{{skill.name}}</li>
+          {% endfor %}
+          </ul>
+        {% endfor %}
+    </div>
+    <div class="pf-container pf-experience">
+      <h3 class="pf-heading">Experience</h3>
+    </div>
+    <div class="pf-container pf-education">
+      <h3 class="pf-heading">Education</h4>
+    </div>
+  </div>
+</div>
 

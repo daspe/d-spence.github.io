@@ -8,9 +8,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    color: var(--d-10);
-    background-color: var(--d-02);
+    color: var(--d-03);
+    background-color: var(--d-11);
     font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
 }
 
 main {

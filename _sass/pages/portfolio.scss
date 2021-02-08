@@ -1,0 +1,48 @@
+#portfolio {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-gap: 10px;
+    padding-top: 20px;
+}
+
+.pf-container {
+    padding: 10px;
+    border: 1px solid var(--d-09);
+    border-top: 5px solid var(--d-09);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.pf-heading {
+    border-bottom: 1px solid var(--d-09);
+}
+
+.pf-container:hover {
+    background-color: var(--d-10);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    scale: 1.01;
+}
+
+.pf-skills {
+    grid-column: span 1;
+}
+
+.pf-education {
+    grid-column: span 2;
+}
+
+.pf-experience {
+    grid-column: span 2;
+}
+
+.pf-projects {
+    grid-column: span 2;
+}
+
+.project {
+
+}
+
+.skill {
+    list-style-position: inside;
+}

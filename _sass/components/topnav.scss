@@ -1,8 +1,9 @@
 #navbar {
     --navbar-height: 64px;
     position: fixed;
+    z-index: 500;
     height: var(--navbar-height);
-    background-color: var(--navbar-bg-color);
+    background-color: var(--d-02);
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
@@ -22,7 +23,7 @@
 
 .home-link,
 .navbar-link {
-    color: var(--navbar-text-color);
+    color: var(--d-09);
     transition: color 0.2s ease-in-out;
     text-decoration: none;
     display: flex;
@@ -32,9 +33,14 @@
                 color 0.2s ease-in-out;
 }
 
+.home-link {
+    font-family: 'Bungee', cursive;
+    font-size: 1.5em;
+}
+
 .home-link:focus,
 .home-link:hover {
-    color: var(--navbar-text-color-focus);
+    color: var(--d-11);
 }
 
 .navbar-link {
@@ -46,12 +52,12 @@
 
 .navbar-link:focus,
 .navbar-link:hover {
-    color: var(--navbar-text-color-focus);
-    background-color: var(--navbar-bg-contrast);
+    color: var(--d-11);
+    background-color: var(--d-05);
 }
 
 .navbar-logo {
-    background-color: var(--navbar-text-color-focus);
+    background-color: var(--d-11);
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -78,12 +84,12 @@
     transition: background-color 0.2s ease-in-out,
                 transform 0.2s ease-in-out,
                 opacity 0.2s ease-in-out;
-    background-color: var(--navbar-text-color);
+    background-color: var(--d-10);
 }
 
 .navbar-toggle:focus .icon-bar,
 .navbar-toggle:hover .icon-bar {
-    background-color: var(--navbar-text-color-focus);
+    background-color: var(--d-11);
 }
 
 #navbar.opened .navbar-toggle .icon-bar:first-child,
@@ -128,7 +134,7 @@
     max-height: 0;
     overflow: hidden;
     position: absolute;
-    background-color: var(--navbar-bg-color);
+    background-color: var(--d-02);
     display: flex;
     flex-direction: column;
     align-items: center;

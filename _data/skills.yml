@@ -1,24 +1,24 @@
 ---
-- category: Programming
+- category: Languages
   skills:
     - name: Python
-      rating: 4
-    - name: HTML
-      rating: 3
-    - name: CSS
-      rating: 3
     - name: JavaScript
-      rating: 2
-- category: Other
+    - name: CSS / Sass
+    - name: HTML
+    - name: SQL
+    - name: C
+- category: Tools, Frameworks, Libraries
   skills:
-    - name: Writing
-      rating: 4
+    - name: React
+    - name: Node / NPM
+    - name: Flask
+    - name: Django
+    - name: Git & GitHub
+- category: Software
+  skills:
+    - name: Windows
+    - name: Linux
+    - name: VS Code
     - name: Photoshop
-      rating: 3
-- category: Electrical
-  skills: 
-    - name: Wiring
-      rating: 5
-    - name: Conduit Bending
-      rating: 4
+    - name: Firefox / Chrome Dev Tools
     
