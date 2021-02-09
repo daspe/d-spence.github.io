@@ -30,6 +30,10 @@
     border-bottom: 1px solid var(--d-09);
 }
 
+.pf-subheading {
+    padding: 5px;
+}
+
 .pf-skills {
     grid-column: span 1;
     align-self: start;
@@ -52,6 +56,11 @@
 
 }
 
-.skill {
-    list-style-position: inside;
+.pf-item {
+    padding-bottom: 10px;
+}
+
+.school-name {
+    font-weight: 900;
+    text-decoration: underline;
 }

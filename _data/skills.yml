@@ -14,11 +14,11 @@
     - name: Flask
     - name: Django
     - name: Git & GitHub
+    - name: Chrome Dev Tools
 - category: Software
   skills:
     - name: Windows
     - name: Linux
     - name: VS Code
     - name: Photoshop
-    - name: Firefox / Chrome Dev Tools
     

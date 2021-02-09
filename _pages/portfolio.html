@@ -12,7 +12,7 @@ permalink: /portfolio
     <div class="pf-container pf-skills">
       <h3 class="pf-heading">Skills</h4>
         {% for item in site.data.skills %}
-          <h4>{{item.category}}:</h5>
+          <h4 class="pf-subheading">{{item.category}}</h5>
           <ul>
           {% for skill in item.skills %}
             <li class="skill">{{skill.name}}</li>
@@ -25,7 +25,23 @@ permalink: /portfolio
     </div>
     <div class="pf-container pf-education">
       <h3 class="pf-heading">Education</h4>
+      <h4 class="pf-subheading">Schools</h4>
+      {% for school in site.data.education.schools %}
+        <div class="pf-item">
+          <p class="school-name">{{school.name}}</p>
+          <p>{{school.subject}}</p>
+          <p><small>{{school.location}} | {{school.duration}} ({{school.gpa}} gpa)</small></p>
+          {% if school.graduation %}
+            <p><small>Graduated {{school.graduation}}</small></p>
+          {% endif %}
+        </div>
+      {% endfor %}
+      <h4 class="pf-subheading">Certificates</h4>
+      <ul class="pf-item">
+      {% for cert in site.data.education.certificates %}
+        <li>{{cert}}</li>
+      {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
-

@@ -4,7 +4,7 @@ schools:
     location: "Anaheim, CA"
     subject: "Electrician Training Program"
     duration: "1 year"
-    graduation: "Oct 2017"
+    graduation: "Oct, 2017"
     gpa: 4.0
   - name: "Orange Coast College"
     location: "Costa Mesa, CA"
@@ -13,6 +13,6 @@ schools:
     graduation: null
     gpa: 3.6
 certificates:
+  - "Harvard CS50 Introduction to Computer Science"
   - "California Electrical Trainee"
-  - "Refinery Safety Overview"
   - "OSHA Basic Safety Training"
