@@ -33,6 +33,11 @@ a:hover {
     color: var(--d-08);
 }
 
+ul, ol {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
 .container {
     max-width: 1000px;
     padding-left: 1.4rem;
