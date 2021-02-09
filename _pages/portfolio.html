@@ -22,13 +22,21 @@ permalink: /portfolio
     </div>
     <div class="pf-container pf-experience">
       <h3 class="pf-heading">Experience</h3>
+        <h4 class="pf-subheading">Companies</h4>
+        {% for company in site.data.experience.companies %}
+          <div class="pf-item">
+            <p class="pf-item-name">{{company.name}}</p>
+            <p>{{company.position}}</p>
+            <p><small>{{company.location}} | {{company.duration}}</small></p>
+          </div>
+        {% endfor %}
     </div>
     <div class="pf-container pf-education">
-      <h3 class="pf-heading">Education</h4>
+      <h3 class="pf-heading">Education</h3>
       <h4 class="pf-subheading">Schools</h4>
       {% for school in site.data.education.schools %}
         <div class="pf-item">
-          <p class="school-name">{{school.name}}</p>
+          <p class="pf-item-name">{{school.name}}</p>
           <p>{{school.subject}}</p>
           <p><small>{{school.location}} | {{school.duration}} ({{school.gpa}} gpa)</small></p>
           {% if school.graduation %}

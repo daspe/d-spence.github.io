@@ -56,8 +56,14 @@
     background-color: var(--d-05);
 }
 
+.navbar-link-active {
+    color: var(--d-11);
+    background-color: var(--d-09);
+    font-weight: 700px;
+}
+
 .navbar-logo {
-    background-color: var(--d-11);
+    background-color: var(--c-04);
     border-radius: 50%;
     width: 30px;
     height: 30px;

@@ -41,14 +41,16 @@
 
 .pf-education {
     grid-column: span 2;
+    align-self: start;
 }
 
 .pf-experience {
     grid-column: span 2;
+    align-self: start;
 }
 
 .pf-projects {
-    grid-column: span 2;
+    grid-column: span 3;
     align-self: start;
 }
 
@@ -57,10 +59,11 @@
 }
 
 .pf-item {
+    padding-left: 10px;
     padding-bottom: 10px;
 }
 
-.school-name {
+.pf-item-name {
     font-weight: 900;
     text-decoration: underline;
 }
