@@ -19,9 +19,9 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
     flex-grow: 1;
-    margin: 64px 10vw;
-    font-size: 1.1rem;
-    line-height: 1.75;
+    margin: 64px 5vw;
+    font-size: 1.0rem;
+    line-height: 1.5;
 }
 
 a {
@@ -44,4 +44,12 @@ ul, ol {
     padding-right: 1.4rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (minwidth: 700px) {
+    main {
+        margin: 64px 10vw;
+        font-size: 1.1rem;
+        line-height: 1.75;
+    }
 }

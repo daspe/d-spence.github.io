@@ -6,10 +6,10 @@ permalink: /portfolio
 
 <div class="container">
   <div id="portfolio">
-    <div class="pf-container pf-projects">
+    <div class="pf-container pf-container-lg">
       <h3 class="pf-heading">Projects</h1>
     </div>
-    <div class="pf-container pf-skills">
+    <div class="pf-container pf-container-sm">
       <h3 class="pf-heading">Skills</h4>
         {% for item in site.data.skills %}
           <h4 class="pf-subheading">{{item.category}}</h5>
@@ -20,7 +20,7 @@ permalink: /portfolio
           </ul>
         {% endfor %}
     </div>
-    <div class="pf-container pf-experience">
+    <div class="pf-container pf-container-md">
       <h3 class="pf-heading">Experience</h3>
         <h4 class="pf-subheading">Companies</h4>
         {% for company in site.data.experience.companies %}
@@ -31,7 +31,7 @@ permalink: /portfolio
           </div>
         {% endfor %}
     </div>
-    <div class="pf-container pf-education">
+    <div class="pf-container pf-container-md">
       <h3 class="pf-heading">Education</h3>
       <h4 class="pf-subheading">Schools</h4>
       {% for school in site.data.education.schools %}

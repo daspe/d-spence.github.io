@@ -21,7 +21,7 @@
 title: dspence
 email: admin@dspence.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Web Developer, Dan Spencer
+  Personal website of Web Developer, Dan Spencer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dspence.net" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
