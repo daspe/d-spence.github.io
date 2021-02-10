@@ -1,0 +1,56 @@
+---
+- name: "Smart-Brain"
+  url: "https://smart-brain-76372.herokuapp.com"
+  project-url: "https://github.com/d-spence/smart-brain"
+  desc: "React app for image face detection. Interacts with Smart-Brain API for user register/login and Clarifai image analysis. Displays a bounding box around face (if detected) using json data received from back-end/Clarifai."
+  tech:
+    - "Javascript"
+    - "React"
+    - "Clarifai"
+    - "HTML / CSS"
+    - "Node / NPM"
+    - "Tachyons"
+    - "tilt.js"
+    - "particles.js"
+    - "Heroku"
+
+- name: "Smart-Brain API"
+  url: "https://smart-brain-api-76372.herokuapp.com/"
+  project-url: "https://github.com/d-spence/smart-brain-api"
+  desc: "Express back-end API for Smart-Brain web app. Handles user registration and login responses through a postgres database. Also acts as a proxy for face detection calls to Clarifai API."
+  tech:
+    - "JavaScript"
+    - "Express"
+    - "Clarifai"
+    - "PostgreSQL"
+    - "knex.js"
+    - "bcrypt"
+    - "Heroku"
+
+- name: "Background Generator"
+  url: "https://dspence.net/background-generator/"
+  project-url: "https://github.com/d-spence/background-generator"
+  desc: "Generate random or user-defined CSS gradient backgrounds using a simple user-interface."
+  tech:
+    - "JavaScript"
+    - "HTML / CSS"
+    - "Node / NPM"
+
+- name: "Yahtzee Flask"
+  url: null
+  project-url: "https://github.com/d-spence/yahtzee_flask"
+  desc: "Dice game application based on Yahtzee using Python and the Flask web framework."
+  tech:
+    - "Python"
+    - "Flask"
+    - "HTML / CSS"
+
+- name: "Personal Website (dspence.net)"
+  url: "https://dspence.net/"
+  project-url: "https://github.com/d-spence/d-spence.github.io"
+  desc: "Personal website created using Jekyll static site generator and hosted on GitHub pages."
+  tech:
+    - "JavaScript"
+    - "Jekyll"
+    - "HTML / Sass"
+    - "GitHub"

@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-    color: var(--d-08);
+    color: var(--c-02);
 }
 
 ul, ol {
@@ -44,6 +44,37 @@ ul, ol {
     padding-right: 1.4rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button {
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 2px 8px;
+    color: var(--d-03);
+    background-color: var(--d-10);
+    border: 1px solid var(--d-02);
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: var(--d-02);
+    background-color: var(--d-08);
+    box-shadow: -3px 3px 0px var(--d-06);
+    transform: translate(3px, -3px);
+}
+
+.button:active {
+    background-color: var(--d-08);
+}
+
+.badge {
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 4px 8px;
+    color: var(--d-04);
+    background-color: var(--d-09);
+    border-radius: 5px;
 }
 
 @media screen and (minwidth: 700px) {

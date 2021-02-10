@@ -1,24 +1,25 @@
 ---
 - category: Languages
   skills:
-    - name: Python
-    - name: JavaScript
-    - name: CSS / Sass
-    - name: HTML
-    - name: SQL
-    - name: C
+    - Python
+    - JavaScript
+    - CSS / Sass
+    - HTML
+    - SQL
+    - C
 - category: Tools, Frameworks, Libraries
   skills:
-    - name: React
-    - name: Node / NPM
-    - name: Flask
-    - name: Django
-    - name: Git & GitHub
-    - name: Chrome Dev Tools
+    - React
+    - Node / NPM
+    - Flask
+    - Django
+    - Jekyll
+    - Git & GitHub
+    - Chrome Dev Tools
 - category: Software
   skills:
-    - name: Windows
-    - name: Linux
-    - name: VS Code
-    - name: Photoshop
+    - Windows
+    - Linux
+    - VS Code
+    - Photoshop
     

@@ -39,8 +39,12 @@
     align-self: start;
 }
 
-.project {
-
+.project-tech {
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: var(--d-10);
+    // border: 1px solid var(--d-09);
+    border-radius: 5px;
 }
 
 .pf-item {
