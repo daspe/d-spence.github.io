@@ -14,23 +14,25 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    color: var(--d-05);
     font-family: 'Raleway', sans-serif;
 }
 
 main {
     flex-grow: 1;
-    margin: 64px 5vw;
-    font-size: 1.0rem;
+    margin: 100px 5vw;
+    font-size: 0.9rem;
     line-height: 1.5;
 }
 
 a {
-    color: var(--c-05);
+    color: var(--c-03);
     text-decoration: none;
+    font-weight: bolder;
 }
 
 a:hover {
-    color: var(--c-02);
+    color: var(--c-05);
 }
 
 ul, ol {
@@ -50,8 +52,8 @@ ul, ol {
     display: inline-block;
     margin: 4px 2px;
     padding: 2px 8px;
-    color: var(--d-03);
-    background-color: var(--d-10);
+    color: var(--d-02);
+    background-color: var(--d-08);
     border: 1px solid var(--d-02);
     border-radius: 2px;
     transition: 0.2s;
@@ -59,7 +61,7 @@ ul, ol {
 
 .button:hover {
     color: var(--d-02);
-    background-color: var(--d-08);
+    background-color: var(--d-10);
     box-shadow: -3px 3px 0px var(--d-06);
     transform: translate(3px, -3px);
 }
@@ -75,12 +77,14 @@ ul, ol {
     color: var(--d-04);
     background-color: var(--d-09);
     border-radius: 5px;
+    font-size: 0.85rem;
 }
 
-@media screen and (minwidth: 700px) {
+// For screens 700px or greater
+@media screen and (min-width: 700px) {
     main {
-        margin: 64px 10vw;
-        font-size: 1.1rem;
+        margin: 100px 10vw;
+        font-size: 1.0rem;
         line-height: 1.75;
     }
 }

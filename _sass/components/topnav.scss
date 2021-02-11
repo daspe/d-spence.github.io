@@ -47,7 +47,7 @@
     justify-content: center;
     width: 100%;
     padding: 0.4em 0.8em;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .navbar-link:focus,
@@ -154,6 +154,7 @@
     max-height: none;
 }
 
+// For screens 700px or greater
 @media screen and (min-width: 700px) {
     .navbar-toggle {
         display: none;

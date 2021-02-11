@@ -5,11 +5,12 @@ permalink: /portfolio
 ---
 
 <div class="container">
+  <h1>Portfolio</h1>
   <div id="portfolio">
     <div class="pf-container pf-container-lg">
       <h3 class="pf-heading">Projects</h1>
       {% for project in site.data.projects %}
-        <h4 class="pf-subheading pf-item-name">{{project.name}}</h4>
+        <h4 class="pf-subheading">{{project.name}}</h4>
         <div class="pf-item">
         {% if project.url %}
           <a class="button" href={{project.url}} target="_blank">Link</a>

@@ -2,12 +2,13 @@
 ---
 // Empty front matter block ensures that Jekyll processes this file.
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&display=swap'); // fonts
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Open+Sans&family=Raleway:wght@500&display=swap'); // fonts
 @import 'general/general';
 @import 'general/colors';
 @import 'components/topnav';
 @import 'components/footer';
 @import 'pages/portfolio';
+@import 'pages/contact';
 
 // @import 'general/themes';
 // @import 'pages/index';
