@@ -17,7 +17,7 @@
 }
 
 .navbar-item {
-    margin: 0.4em;
+    margin: 0.4rem;
     width: 100%;
 }
 
@@ -35,7 +35,7 @@
 
 .home-link {
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .home-link:focus,
@@ -43,10 +43,10 @@
     color: var(--d-11);
 }
 
-.navbar-link {
+.navbar-link, .navbar-link-active {
     justify-content: center;
     width: 100%;
-    padding: 0.4em 0.8em;
+    padding: 0.4em 0.8rem;
     border-radius: 2px;
 }
 
@@ -59,7 +59,7 @@
 .navbar-link-active {
     color: var(--d-11);
     background-color: var(--d-09);
-    font-weight: 700px;
+    // font-size: 1.2rem;
 }
 
 .navbar-logo {
@@ -67,7 +67,7 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    margin-right: 0.5em;
+    margin-right: 0.5rem;
 }
 
 .navbar-toggle {

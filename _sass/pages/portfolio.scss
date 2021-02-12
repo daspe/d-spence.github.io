@@ -4,11 +4,11 @@
     grid-template-rows: 1fr;
     gap: 10px;
     grid-auto-flow: row;
-    align-items: stretch;
 }
 
 .pf-container {
     padding: 10px;
+    background-color: var(--d-11);
     border: 1px solid var(--d-06);
     border-radius: 2px;
     transition: 0.2s;
@@ -39,7 +39,6 @@
 }
 
 .project-tech {
-    // margin: 5px 0px;
     padding: 10px 0px;
 }
 
@@ -49,7 +48,7 @@
 }
 
 .pf-item-name {
-    font-weight: 900;
+    font-weight: bold;
     text-decoration: underline;
 }
 

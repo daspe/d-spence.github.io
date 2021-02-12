@@ -9,20 +9,21 @@ body {
     flex-direction: column;
     height: 100vh;
     color: var(--d-03);
-    background-color: var(--d-11);
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    flex-grow: 1;
+    width: 100%;
+    margin: 100px auto;
+    font-size: 0.9rem;
+    line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--d-05);
     font-family: 'Raleway', sans-serif;
-}
-
-main {
-    flex-grow: 1;
-    margin: 100px 5vw;
-    font-size: 0.9rem;
-    line-height: 1.5;
 }
 
 a {
@@ -83,7 +84,8 @@ ul, ol {
 // For screens 700px or greater
 @media screen and (min-width: 700px) {
     main {
-        margin: 100px 10vw;
+        width: 100%;
+        margin: 100px auto;
         font-size: 1.0rem;
         line-height: 1.75;
     }
