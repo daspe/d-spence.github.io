@@ -14,14 +14,14 @@
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
-    // margin: 20px;
+    padding: 20px;
     justify-items: center;
 }
 
 .social-network {
     display: flex;
-    margin: 20px;
-    background-color: var(--d-07);
+    margin: 0px 0px 10px 0px;
+    background-color: var(--d-11);
 }
 
 .social-network-icon {
