@@ -2,6 +2,7 @@
 - name: "Smart-Brain"
   url: "https://smart-brain-76372.herokuapp.com"
   project-url: "https://github.com/d-spence/smart-brain"
+  video-url: null
   desc: "React app for image face detection. Interacts with Smart-Brain API for user register/login and Clarifai image analysis. Displays a bounding box around face (if detected) using json data received from back-end/Clarifai."
   tech:
     - "Javascript"
@@ -17,6 +18,7 @@
 - name: "Smart-Brain API"
   url: "https://smart-brain-api-76372.herokuapp.com/"
   project-url: "https://github.com/d-spence/smart-brain-api"
+  video-url: null
   desc: "Express back-end API for Smart-Brain web app. Handles user registration and login responses through a postgres database. Also acts as a proxy for face detection calls to Clarifai API."
   tech:
     - "JavaScript"
@@ -30,15 +32,28 @@
 - name: "Background Generator"
   url: "https://dspence.net/background-generator/"
   project-url: "https://github.com/d-spence/background-generator"
+  video-url: null
   desc: "Generate random or user-defined CSS gradient backgrounds using a simple user-interface."
   tech:
     - "JavaScript"
     - "HTML / CSS"
     - "Node / NPM"
 
+- name: "Django Commerce"
+  url: null
+  project-url: "https://github.com/d-spence/django-commerce"
+  video-url: "https://www.youtube.com/watch?v=Yt_E7Kv0Rw0"
+  desc: "E-commerce web application for virtual auctions using Python and the Django web framework."
+  tech:
+    - "Python"
+    - "Django"
+    - "SQLite DB"
+    - "HTML / CSS"
+
 - name: "Yahtzee Flask"
   url: null
   project-url: "https://github.com/d-spence/yahtzee_flask"
+  video-url: "https://www.youtube.com/watch?v=l2iZLh5wNi4"
   desc: "Dice game application based on Yahtzee using Python and the Flask web framework."
   tech:
     - "Python"
@@ -48,7 +63,8 @@
 - name: "Personal Website (dspence.net)"
   url: "https://dspence.net/"
   project-url: "https://github.com/d-spence/d-spence.github.io"
-  desc: "Personal website created using Jekyll static site generator and hosted on GitHub pages."
+  video-url: null
+  desc: "This website created using Jekyll static site generator and hosted on GitHub pages."
   tech:
     - "JavaScript"
     - "Jekyll"

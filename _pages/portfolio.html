@@ -15,8 +15,11 @@ permalink: /portfolio
         {% if project.url %}
           <a class="button" href={{project.url}} target="_blank">Link</a>
         {% endif %}
+        {% if project.video-url %}
+          <a class="button" href={{project.video-url}} target="_blank">Video</a>
+        {% endif %}
         {% if project.project-url %}
-          <a class="button" href={{project.project-url}} target="_blank">Project Source</a>
+          <a class="button" href={{project.project-url}} target="_blank">Source</a>
         {% endif %}
           <p>{{project.desc}}</p>
           <div class="project-tech">
