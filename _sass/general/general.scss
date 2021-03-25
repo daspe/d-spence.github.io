@@ -27,26 +27,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: var(--c-03);
+    color: var(--d-06);
     text-decoration: none;
     font-weight: bolder;
 }
 
 a:hover {
-    color: var(--c-05);
+    color: var(--d-05);
 }
 
 ul, ol {
     list-style-position: inside;
     list-style-type: square;
-}
-
-.container {
-    max-width: 1000px;
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .button {

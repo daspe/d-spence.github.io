@@ -28,8 +28,7 @@
     display: flex;
     font-weight: 400;
     align-items: center;
-    transition: background-color 0.2s ease-in-out,
-                color 0.2s ease-in-out;
+    transition: 0.2s;
 }
 
 .home-link:focus, .home-link:hover {
@@ -46,18 +45,18 @@
 
 .home-link:focus .navbar-logo,
 .home-link:hover .navbar-logo {
-    background-color: var(--d-05);
+    background-color: var(--d-06);
     border-radius: 50%;
 }
 
 .navbar-logo #path0 {
-    fill: var(--h-yellow);
+    fill: var(--d-09);
     transition: 0.2s;
 }
 
 .home-link:focus .navbar-logo #path0,
 .home-link:hover .navbar-logo #path0 {
-    fill: var(--d-11);
+    fill: var(--h-yellow);
     transform: translate(25px, 10px);
 }
 

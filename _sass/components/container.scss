@@ -1,0 +1,26 @@
+.container {
+    max-width: 1000px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fancy-container {
+    padding: 10px;
+    background: linear-gradient(90deg, var(--d-11), var(--d-09));
+    border: 1px solid var(--d-06);
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+.fancy-container:hover {
+    background: linear-gradient(90deg, var(--d-02), var(--d-05));
+    box-shadow: -5px 5px 0px var(--d-06);
+    transform: translate(5px, -5px);
+    color: var(--d-10);
+}
+
+.fancy-container:hover h3, .fancy-container:hover h4 {
+    color: var(--h-yellow);
+}

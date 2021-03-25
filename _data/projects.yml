@@ -1,4 +1,32 @@
 ---
+- name: "Void-Notes"
+  url: null
+  project-url: "https://github.com/d-spence/void-notes"
+  video-url: null
+  desc: "Front-end React app for temporary and anonymous notes. Notes expire after 30 days unless renewed and login is done by randomly generated access key. Speaks with an API for storage, retreival, updates and other operations."
+  tech:
+    - "Javascript"
+    - "React"
+    - "HTML / CSS"
+    - "Node / NPM"
+    - "REST API"
+    - "Cookies"
+    - "react-bootstrap"
+    - "Heroku"
+
+- name: "Void-Notes API"
+  url: null
+  project-url: "https://github.com/d-spence/void-notes-api"
+  video-url: null
+  desc: "Back-end Express API for Void-Notes app. Handles the underlying database operations for the site."
+  tech:
+    - "Javascript"
+    - "Express"
+    - "Node / NPM"
+    - "PostgreSQL"
+    - "knex.js"
+    - "Heroku"
+
 - name: "Smart-Brain"
   url: "https://smart-brain-76372.herokuapp.com"
   project-url: "https://github.com/d-spence/smart-brain"

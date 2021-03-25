@@ -6,25 +6,6 @@
     grid-auto-flow: row;
 }
 
-.pf-container {
-    padding: 10px;
-    background-color: var(--d-11);
-    border: 1px solid var(--d-06);
-    border-radius: 2px;
-    transition: 0.2s;
-}
-
-.pf-container:hover {
-    background-color: var(--d-02);
-    box-shadow: -5px 5px 0px var(--d-06);
-    transform: translate(5px, -5px);
-    color: var(--d-10);
-}
-
-.pf-container:hover h3, .pf-container:hover h4 {
-    color: var(--d-06);
-}
-
 .pf-heading {
     border-bottom: 1px solid var(--d-09);
 }
@@ -33,7 +14,7 @@
     padding: 5px;
 }
 
-.pf-container-sm, .pf-container-md, .pf-container-lg {
+.pf-grid-sm, .pf-grid-md, .pf-grid-lg {
     grid-column: span 1;
     align-self: start;
 }
@@ -59,19 +40,18 @@
         gap: 20px;
     }
 
-    .pf-container-sm {
+    .pf-grid-sm {
         grid-column: span 1;
         align-self: start;
     }
     
-    .pf-container-md {
+    .pf-grid-md {
         grid-column: span 2;
         align-self: start;
     }
     
-    .pf-container-lg {
+    .pf-grid-lg {
         grid-column: span 3;
         align-self: start;
     }
-
 }
