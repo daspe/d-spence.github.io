@@ -1,6 +1,6 @@
 ---
 - name: "Void-Notes"
-  url: null
+  url: "https://void-notes.herokuapp.com/"
   project-url: "https://github.com/d-spence/void-notes"
   video-url: null
   desc: "Front-end React app for temporary and anonymous notes. Notes expire after 30 days unless renewed and login is done by randomly generated access key. Speaks with an API for storage, retreival, updates and other operations."
@@ -15,7 +15,7 @@
     - "Heroku"
 
 - name: "Void-Notes API"
-  url: null
+  url: "https://void-notes-api.herokuapp.com/"
   project-url: "https://github.com/d-spence/void-notes-api"
   video-url: null
   desc: "Back-end Express API for Void-Notes app. Handles the underlying database operations for the site."
