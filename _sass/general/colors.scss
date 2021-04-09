@@ -1,4 +1,5 @@
 :root {
+    // primary shades
     --d-01: #161819;
     --d-02: #1D2429;
     --d-03: #2C3338;
@@ -10,16 +11,20 @@
     --d-09: #A8B7C3;
     --d-10: #D3D7DA;
     --d-11: #e6ebee;
-    --c-01: #272522;
-    --c-02: #40372B;
-    --c-03: #564329;
-    --c-04: #584F43;
-    --c-05: #816E55;
+
+    // other colors
+    --c-link: #3e7074;
+
+    // highlight colors
     --h-orange: #FF8606;
     --h-yellow: #ffda06;
     --h-green: #38ff06;
     --h-blue: #06f7ff;
     --h-red: #ff0644;
+    
+    // gradients
+    --grad-dark: linear-gradient(90deg, var(--d-02), var(--d-05));
+    --grad-light: linear-gradient(90deg, var(--d-11), var(--d-09));
 }
 
 // http://paletton.com/#uid=23x0u0k3V4WaYgf7Lb1ac80gJaQ

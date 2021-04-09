@@ -1,37 +1,29 @@
 .email-button {
-    padding: 10px 20px;
+    display: flex;
     margin: 20px;
-    font-size: 1.1rem;
-    text-align: center;
-}
-
-.email-icon {
-    font-size: 1.2rem;
-    padding-right: 10px;
 }
 
 .social-network-list {
-    display: flex;
-    flex-flow: column nowrap;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 100%;
     padding: 20px;
-    justify-items: center;
 }
 
-.social-network {
+.social-network-button {
     display: flex;
-    margin: 0px 0px 10px 0px;
     background-color: var(--d-11);
 }
 
+.email-icon,
 .social-network-icon {
-    padding: 2px;
+    padding: 5px;
     width: 50px;
     height: 50px;
 }
 
+.email-button-text,
 .social-network-name {
-    padding: 10px;
     margin: auto;
     font-size: 1.1rem;
 }

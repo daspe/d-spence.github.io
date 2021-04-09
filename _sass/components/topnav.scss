@@ -3,7 +3,7 @@
     position: fixed;
     z-index: 500;
     height: var(--navbar-height);
-    background-color: var(--d-02);
+    background: var(--grad-dark);
     left: 0;
     right: 0;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
@@ -24,7 +24,6 @@
 .home-link, .navbar-link, .navbar-link-active {
     color: var(--d-09);
     transition: color 0.2s ease-in-out;
-    text-decoration: none;
     display: flex;
     font-weight: 400;
     align-items: center;
@@ -33,6 +32,7 @@
 
 .home-link:focus, .home-link:hover {
     color: var(--d-11);
+    text-decoration: none;
 }
 
 .navbar-logo {
@@ -85,6 +85,7 @@
 .navbar-link-active:focus, .navbar-link-active:hover {
     color: var(--d-11);
     background-color: var(--d-05);
+    text-decoration: none;
 }
 
 .navbar-toggle {
@@ -157,7 +158,6 @@
     max-height: 0;
     overflow: hidden;
     position: absolute;
-    background-color: var(--d-02);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,6 +169,7 @@
 #navbar.opened .navbar-links {
     padding: 1em;
     max-height: none;
+    background: var(--grad-dark);
 }
 
 // For screens 700px or greater
@@ -197,6 +198,12 @@
         max-height: max-content;
         width: 100%;
         height: 100%;
+    }
+
+    #navbar.opened .navbar-menu,
+    #navbar.opened .navbar-links {
+        // disable backgrounds if resizing occurs while navbar menu is expanded
+        background: none;
     }
 
     #navbar .navbar-link:last-child {
