@@ -41,7 +41,16 @@ const quotes = [
     '"If you can\'t explain it simply, you don\'t understand it well enough." ―Albert Einstein',
 ];
 
+const welcomeQuote = document.querySelector('#welcome-quote');
+let quoteIndex = Math.floor(Math.random() * quotes.length); // random index number
+
+// Set welcome quote to a random quote
 document.addEventListener('DOMContentLoaded', () => {
-    const welcomeQuote = document.querySelector('.welcome-quote');
-    welcomeQuote.innerText = quotes[Math.floor(Math.random() * quotes.length)];
+    welcomeQuote.innerText = quotes[quoteIndex];
+});
+
+// Cycle through quotes when quote is clicked
+welcomeQuote.addEventListener('click', () => {
+    quoteIndex = (quoteIndex === quotes.length-1) ? quoteIndex = 0 : ++quoteIndex;
+    welcomeQuote.innerText = quotes[quoteIndex];
 });

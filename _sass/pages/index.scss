@@ -12,18 +12,24 @@
     margin: 10px;
 }
 
-.welcome-quote {
-    place-self: center;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-}
-
 .ds-logo {
     max-width: 200px;
     justify-self: center;
     grid-row: span 2;
     margin: 10px;
+}
+
+#welcome-quote {
+    place-self: center;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#welcome-quote:focus, #welcome-quote:hover {
+    color: var(--h-blue);
 }
 
 @media screen and (min-width: 700px) {
