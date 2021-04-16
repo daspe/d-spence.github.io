@@ -3,5 +3,36 @@
 }
 
 .welcome-heading {
-    border-bottom: 1px solid var(--d-09);
+    border-bottom: 1px solid var(--d-08);
+}
+
+.welcome-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+}
+
+.welcome-quote {
+    place-self: center;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.ds-logo {
+    max-width: 200px;
+    justify-self: center;
+    grid-row: span 2;
+    margin: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    .welcome-body {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .ds-logo {
+        max-width: 250px;
+    }
 }

@@ -1,3 +1,4 @@
+// Navbar Scripts
 const navbar = document.getElementById('navbar');
 const navbarToggle = navbar.querySelector('.navbar-toggle');
 const navbarMenu = navbar.querySelector('.navbar-menu');
@@ -30,3 +31,17 @@ navbarLinksContainer.addEventListener('click', (clickEvent) => {
 });
 
 navbarMenu.addEventListener('click', closeMobileNavbar);
+
+// Random Quote Script
+const quotes = [
+    '"When we speak without jargon, it frees us from hiding behind knowledge we don’t have."\n ―Richard Feynman',
+    '"Never trust a computer you can\'t throw out a window."\n ―Steve Wozniak',
+    '"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."\n ―Linus Torvalds',
+    '"When you do things right, people won\'t be sure you\'ve done anything at all."',
+    '"If you can\'t explain it simply, you don\'t understand it well enough." ―Albert Einstein',
+];
+
+document.addEventListener('DOMContentLoaded', () => {
+    const welcomeQuote = document.querySelector('.welcome-quote');
+    welcomeQuote.innerText = quotes[Math.floor(Math.random() * quotes.length)];
+});
