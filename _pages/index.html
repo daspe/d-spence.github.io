@@ -10,8 +10,8 @@ permalink: /
     <h3 class="welcome-heading">Thanks for visiting!</h3>
     <p>
       My name's Dan and I'm a web developer dedicated to beautiful and efficient software design. 
-      I have a passion for learning, whether it's by success, error or simply reading the documentation. 
-      My long-term ambition is to become a master of my craft.
+      I have a passion for learning, and am always striving to improve my craft. Currently I'm 
+      studying React, Node.js, and Material UI.
     </p><br><hr>
     <h3>Check out these other pages:</h3>
     <ul>
@@ -21,10 +21,12 @@ permalink: /
       <li><a href="/contact">Contact</a> if you'd like to get in touch.</li>
     </ul>
   </div>
+  {% if site.posts[0] %}
   <h2>Recent Blog Posts</h2>
   <ul>
       {% for post in site.posts %}
       <li><a href="{{ post.url }}" class="post-preview">{{ post.title }}</a></li>
       {% endfor %}
   </ul>
+  {% endif %}
 </div>
