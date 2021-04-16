@@ -4,6 +4,7 @@
   project-url: "https://github.com/d-spence/void-notes"
   video-url: null
   desc: "Front-end React app for temporary and anonymous notes. Notes expire after 30 days unless renewed and login is done by randomly generated access key. Speaks with an API for storage, retreival, updates and other operations."
+  footnote: "*"
   tech:
     - "Javascript"
     - "React"
@@ -19,6 +20,7 @@
   project-url: "https://github.com/d-spence/void-notes-api"
   video-url: null
   desc: "Back-end Express API for Void-Notes app. Handles the underlying database operations for the site."
+  footnote: "*"
   tech:
     - "Javascript"
     - "Express"
@@ -32,6 +34,7 @@
   project-url: "https://github.com/d-spence/smart-brain"
   video-url: null
   desc: "React app for image face detection. Interacts with Smart-Brain API for user register/login and Clarifai image analysis. Displays a bounding box around face (if detected) using json data received from back-end/Clarifai."
+  footnote: "*"
   tech:
     - "Javascript"
     - "React"
@@ -48,6 +51,7 @@
   project-url: "https://github.com/d-spence/smart-brain-api"
   video-url: null
   desc: "Express back-end API for Smart-Brain web app. Handles user registration and login responses through a postgres database. Also acts as a proxy for face detection calls to Clarifai API."
+  footnote: "*"
   tech:
     - "JavaScript"
     - "Express"

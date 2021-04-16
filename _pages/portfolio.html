@@ -21,7 +21,7 @@ permalink: /portfolio
         {% if project.project-url %}
           <a class="button" href={{project.project-url}} target="_blank">Source</a>
         {% endif %}
-          <p>{{project.desc}}</p>
+          <p>{{project.desc}}<a href="#pf-footnote">{{project.footnote}}</a></p>
           <div class="project-tech">
           {% for tech in project.tech %}
             <span class="badge">{{tech}}</span>
@@ -29,6 +29,12 @@ permalink: /portfolio
           </div>
         </div>
       {% endfor %}
+      <div id="pf-footnote">
+        <p >
+          * Apps may load slowly or require a refresh when accessed.  
+          These apps use a free hosting service and sleep when not in use.
+        </p>
+      </div>
     </div>
     <div class="fancy-container pf-grid-sm">
       <h3 class="pf-heading">Skills</h4>
