@@ -4,18 +4,22 @@ companies:
     location: "Austin, TX"
     position: "Student Web Developer"
     duration: "05/20 - Current"
+
   - name: "Access Electric & Lighting"
     location: "Laguna Hills, CA"
     position: "Electrician"
     duration: "09/19 - 04/20"
+
   - name: "BDB Inc - Electrical"
     location: "Garden Grove, CA"
     position: "Electrician"
     duration: "06/18 - 04/19"
+
   - name: "Pro Safety Inc"
     location: "Carson, CA / Pacheco, CA"
     position: "Refinery Safety Technician (Temp/Seasonal)"
     duration: "02/18 - 03/18"
+    
   - name: "Best Buy"
     location: "San Antonio, TX"
     position: "Inventory Associate"

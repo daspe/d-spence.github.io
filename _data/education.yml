@@ -6,15 +6,26 @@ schools:
     duration: "1 year"
     graduation: "Oct, 2017"
     gpa: 4.0
+
   - name: "Orange Coast College"
     location: "Costa Mesa, CA"
     subject: "General Education"
     duration: "1+ years"
     graduation: null
     gpa: 3.6
+
+courses:
+  - name: "Harvard CS50: Introduction to Computer Science"
+    location: "edX.org"
+    desc: "Course teaching the fundamental principles of computer science, programming and algorithmic problem solving."
+    date: "Completed Aug, 2020"
+
+  - name: "Complete Web Developer in 2021: Zero to Mastery"
+    location: "Udemy.com"
+    desc: "Course involving essential and advanced web development concepts, practices and technologies."
+    date: "Completed Jan, 2021"
+
 certificates:
-  - "Harvard CS50 Introduction to Computer Science"
-  - "Complete Web Developer in 2021: Zero to Mastery"
-  - "Electrical Training Alliance Tech Math"
   - "California Electrical Trainee"
+  - "Electrical Training Alliance Tech Math"
   - "OSHA Basic Safety Training"

@@ -7,7 +7,8 @@
     - HTML
     - SQL
     - C
-- category: Tools, Frameworks, Libraries
+
+- category: Frameworks & Libraries
   skills:
     - React
     - Node / NPM
@@ -15,14 +16,16 @@
     - Flask
     - Jekyll
     - Bootstrap
-    - Git & GitHub
+    - Material-UI
+
+- category: Tools & Software
+  skills:
+    - Git / GitHub
+    - VS Code
     - Postman
     - DBeaver
-    - Chrome Dev Tools
-- category: Software
-  skills:
+    - Browser Dev Tools
     - Windows
     - Linux
-    - VS Code
     - Photoshop
     
