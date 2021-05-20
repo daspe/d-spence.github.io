@@ -1,79 +1,82 @@
 ---
-- name: "Void-Notes"
-  url: "https://void-notes.herokuapp.com/"
-  project-url: "https://github.com/d-spence/void-notes"
-  video-url: null
-  desc: "Front-end React app for temporary and anonymous notes. Notes expire after 30 days unless renewed and login is done by randomly generated access key. Speaks with an API for storage, retreival, updates and other operations."
+- name: "Austin Flights (Flight Monitor)"
+  url: "https://austin-flights.herokuapp.com/"
+  source-url: "https://github.com/d-spence/abia-flights"
+  api-url: "https://austin-flights-api.herokuapp.com/"
+  api-source-url: "https://github.com/d-spence/abia-flights-api"
+  desc: "Full-stack, responsive React app for displaying real-time status of flights to and from the Austin-Bergstrom International Airport. Express API is used to obtain flight data which is sent to the client upon request."
   footnote: "*"
   tech:
-    - "Javascript"
+    - "JavaScript"
+    - "React"
+    - "Tailwind CSS"
+    - "HTML / CSS"
+    - "Node / NPM"
+    - "Express"
+    - "Heroku"
+    - "xml2js"
+    - "dayjs"
+
+
+- name: "Void-Notes"
+  url: "https://void-notes.herokuapp.com/"
+  source-url: "https://github.com/d-spence/void-notes"
+  api-url: "https://void-notes-api.herokuapp.com/"
+  api-source-url: "https://github.com/d-spence/void-notes-api"
+  desc: "Full-stack React app for temporary and anonymous notes. Notes expire after 30 days unless renewed and login is done by randomly generated access key. Uses an API for database storage, retreival, updates and other operations."
+  footnote: "*"
+  tech:
+    - "JavaScript"
     - "React"
     - "HTML / CSS"
     - "Node / NPM"
     - "REST API"
     - "Cookies"
-    - "react-bootstrap"
-    - "Heroku"
-
-- name: "Void-Notes API"
-  url: "https://void-notes-api.herokuapp.com/"
-  project-url: "https://github.com/d-spence/void-notes-api"
-  video-url: null
-  desc: "Back-end Express API for Void-Notes app. Handles the underlying database operations for the site."
-  footnote: "*"
-  tech:
-    - "Javascript"
     - "Express"
-    - "Node / NPM"
     - "PostgreSQL"
-    - "knex.js"
     - "Heroku"
+    - "react-bootstrap"
+    - "knex.js"
 
 - name: "Smart-Brain"
   url: "https://smart-brain-76372.herokuapp.com"
-  project-url: "https://github.com/d-spence/smart-brain"
-  video-url: null
-  desc: "React app for image face detection. Interacts with Smart-Brain API for user register/login and Clarifai image analysis. Displays a bounding box around face (if detected) using json data received from back-end/Clarifai."
+  source-url: "https://github.com/d-spence/smart-brain"
+  api-url: "https://smart-brain-api-76372.herokuapp.com/"
+  api-source-url: "https://github.com/d-spence/smart-brain-api"
+  desc: "React app for image face detection. Uses an API for user register/login and Clarifai image analysis. If a face is detected, it displays a bounding box around the location."
   footnote: "*"
   tech:
-    - "Javascript"
+    - "JavaScript"
     - "React"
     - "Clarifai"
     - "HTML / CSS"
     - "Node / NPM"
+    - "Express"
+    - "PostgreSQL"
+    - "Heroku"
     - "Tachyons"
     - "tilt.js"
     - "particles.js"
-    - "Heroku"
+    - "knex.js"
+    - "bcrypt"
 
-- name: "Smart-Brain API"
-  url: "https://smart-brain-api-76372.herokuapp.com/"
-  project-url: "https://github.com/d-spence/smart-brain-api"
-  video-url: null
-  desc: "Express back-end API for Smart-Brain web app. Handles user registration and login responses through a postgres database. Also acts as a proxy for face detection calls to Clarifai API."
+- name: "Background Generator"
+  url: "https://bg-gradient-gen.herokuapp.com/"
+  source-url: "https://github.com/d-spence/bg-gen"
+  desc: "Generate customizable CSS gradient backgrounds with the option to save as an image of any size."
   footnote: "*"
   tech:
     - "JavaScript"
-    - "Express"
-    - "Clarifai"
-    - "PostgreSQL"
-    - "knex.js"
-    - "bcrypt"
-    - "Heroku"
-
-- name: "Background Generator"
-  url: "https://dspence.net/background-generator/"
-  project-url: "https://github.com/d-spence/background-generator"
-  video-url: null
-  desc: "Generate random or user-defined CSS gradient backgrounds using a simple user-interface."
-  tech:
-    - "JavaScript"
+    - "React"
+    - "Material UI"
+    - "Sass"
     - "HTML / CSS"
-    - "Node / NPM"
+    - "Heroku"
+    - "html2canvas"
 
 - name: "Django Commerce"
   url: null
-  project-url: "https://github.com/d-spence/django-commerce"
+  source-url: "https://github.com/d-spence/django-commerce"
   video-url: "https://www.youtube.com/watch?v=Yt_E7Kv0Rw0"
   desc: "E-commerce web application for virtual auctions using Python and the Django web framework."
   tech:
@@ -84,7 +87,7 @@
 
 - name: "Yahtzee Flask"
   url: null
-  project-url: "https://github.com/d-spence/yahtzee_flask"
+  source-url: "https://github.com/d-spence/yahtzee_flask"
   video-url: "https://www.youtube.com/watch?v=l2iZLh5wNi4"
   desc: "Dice game application based on Yahtzee using Python and the Flask web framework."
   tech:
@@ -94,7 +97,7 @@
 
 - name: "Personal Website (dspence.net)"
   url: "https://dspence.net/"
-  project-url: "https://github.com/d-spence/d-spence.github.io"
+  source-url: "https://github.com/d-spence/d-spence.github.io"
   video-url: null
   desc: "This website created using Jekyll static site generator and hosted on GitHub pages."
   tech:

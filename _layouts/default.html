@@ -37,7 +37,7 @@
               Portfolio
             </a>
           </li>
-          <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <a href="/blog" 
               {% if page.title == "Blog" %}
                 class="navbar-link-active"
@@ -46,7 +46,7 @@
               {% endif %}>
               Blog
             </a>
-          </li>
+          </li> -->
           <li class="navbar-item">
             <a href="/about" 
               {% if page.title == "About" %}
@@ -71,12 +71,15 @@
       </div>
     </nav>
   </header>
+
   <main class="page-content">
     {{ content }}
   </main>
+
   <footer>
     <span id="copyright">© 2020–{{ "now" | date:"%Y" }}, Dan Spencer</span>
   </footer>
+
   <script src="/assets/scripts/default.js"></script>
 </body>
 </html>

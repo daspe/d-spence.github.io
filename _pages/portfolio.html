@@ -4,6 +4,7 @@ title: Portfolio
 permalink: /portfolio
 ---
 
+
 <div class="container">
   <h1>Portfolio</h1>
   <div id="portfolio">
@@ -19,8 +20,14 @@ permalink: /portfolio
         {% if project.video-url %}
           <a class="button" href={{project.video-url}} target="_blank">Video</a>
         {% endif %}
-        {% if project.project-url %}
-          <a class="button" href={{project.project-url}} target="_blank">Source</a>
+        {% if project.source-url %}
+          <a class="button" href={{project.source-url}} target="_blank">Source</a>
+        {% endif %}
+        {% if project.api-url %}
+          <a class="button" href={{project.api-url}} target="_blank">API</a>
+        {% endif %}
+        {% if project.api-source-url %}
+          <a class="button" href={{project.api-source-url}} target="_blank">API Source</a>
         {% endif %}
           <p>{{project.desc}}<a href="#pf-footnote">{{project.footnote}}</a></p>
           <div class="project-tech">
@@ -37,6 +44,7 @@ permalink: /portfolio
         </p>
       </div>
     </div>
+
     <!-- Skills -->
     <div class="fancy-container pf-grid-sm">
       <h3 class="pf-heading">Skills</h4>
@@ -49,6 +57,7 @@ permalink: /portfolio
           </ul>
         {% endfor %}
     </div>
+
     <!-- Education -->
     <div class="fancy-container pf-grid-md">
       <h3 class="pf-heading">Education</h3>
@@ -78,6 +87,7 @@ permalink: /portfolio
       {% endfor %}
       </ul>
     </div>
+
     <!-- Experience -->
     <div class="fancy-container pf-grid-md">
       <h3 class="pf-heading">Experience</h3>
