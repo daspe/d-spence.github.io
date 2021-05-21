@@ -6,21 +6,21 @@
 
 .fancy-container {
     padding: 10px;
-    background: var(--grad-light);
-    border: 1px solid var(--d-06);
+    background: $grad-light;
+    border: 1px solid $primary-mid;
     border-radius: 2px;
     transition: 0.2s;
-}
 
-.fancy-container:hover {
-    background: var(--grad-dark);
-    box-shadow: -5px 5px 0px var(--d-06);
-    transform: translate(5px, -5px);
-    color: var(--d-10);
-}
+    &:hover {
+        background: $grad-color;
+        box-shadow: -5px 5px 0px $primary-mid;
+        transform: translate(5px, -5px);
+        color: $primary-light;
 
-.fancy-container:hover h3, .fancy-container:hover h4 {
-    color: var(--h-yellow);
+        h3, h4 {
+            color: lighten($highlight-color, 0%);
+        }
+    }
 }
 
 @media screen and (min-width: 700px) { 

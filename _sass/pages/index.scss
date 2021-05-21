@@ -3,7 +3,7 @@
 }
 
 .welcome-heading {
-    border-bottom: 1px solid var(--d-08);
+    border-bottom: 1px solid $primary-mid;
 }
 
 .welcome-body {
@@ -25,11 +25,11 @@
     font-style: italic;
     text-align: center;
     cursor: pointer;
-    transition: 0.8s;
-}
+    transition: 0.4s;
 
-#welcome-quote:focus, #welcome-quote:hover {
-    color: var(--h-blue);
+    &:hover {
+        color: lighten($highlight-color, 20%);
+    }
 }
 
 @media screen and (min-width: 700px) {

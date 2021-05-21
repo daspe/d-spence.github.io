@@ -12,7 +12,11 @@
 
 .social-network-button {
     display: flex;
-    background-color: var(--d-11);
+    background-color: $primary-mid;
+
+    &:hover {
+        background-color: lighten($primary-mid, 10%);
+    }
 }
 
 .email-icon,

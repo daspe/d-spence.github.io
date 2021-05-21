@@ -1,0 +1,15 @@
+// Colors
+$primary-dark: hsl(200, 20%, 10%);
+$primary-light: hsl(200, 20%, 90%);
+$primary-mid: hsl(200, 20%, 50%);
+$primary-color: hsl(200, 40%, 20%);
+$secondary-color: hsl(180, 60%, 40%);
+$highlight-color: hsl(60, 80%, 60%);
+
+// Spacing
+$navbar-height: 64px;
+
+// Gradients
+$grad-dark: linear-gradient(90deg, $primary-dark, lighten($primary-dark, 20%));
+$grad-light: linear-gradient(90deg,$primary-light, darken($primary-light, 20%));
+$grad-color: linear-gradient(90deg, $primary-color, lighten($primary-color, 20%));

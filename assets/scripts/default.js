@@ -1,5 +1,5 @@
 // Navbar Scripts
-const navbar = document.getElementById('navbar');
+const navbar = document.querySelector('#navbar');
 const navbarToggle = navbar.querySelector('.navbar-toggle');
 const navbarMenu = navbar.querySelector('.navbar-menu');
 const navbarLinksContainer = navbar.querySelector('.navbar-links');

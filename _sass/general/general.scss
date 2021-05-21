@@ -5,14 +5,14 @@
 }
 
 html {
-    scroll-padding-top: var(--navbar-height);
+    scroll-padding-top: $navbar-height;
 }
 
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    color: var(--d-03);
+    color: $primary-dark;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -26,18 +26,18 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--d-05);
+    color: $primary-color;
     font-family: 'Raleway', sans-serif;
 }
 
 a {
-    color: var(--c-link);
+    color: $secondary-color;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: var(--d-06);
+    color: $primary-mid;
 }
 
 ul, ol {
@@ -49,30 +49,26 @@ ul, ol {
     display: inline-block;
     margin: 4px 2px;
     padding: 2px 8px;
-    color: var(--d-02);
-    background-color: var(--d-08);
-    border: 1px solid var(--d-02);
+    color: $primary-light;
+    background-color: darken($secondary-color, 10%);
+    border: 1px solid $primary-dark;
     border-radius: 2px;
     transition: 0.2s;
-}
 
-.button:hover {
-    color: var(--d-02);
-    background-color: var(--d-10);
-    box-shadow: -3px 3px 0px var(--d-06);
-    transform: translate(3px, -3px);
-}
-
-.button:active {
-    background-color: var(--d-08);
+    &:hover {
+        color: $primary-light;
+        background-color: $secondary-color;
+        box-shadow: -3px 3px 0px $primary-mid;
+        transform: translate(3px, -3px);
+    }
 }
 
 .badge {
     display: inline-block;
     margin: 4px 2px;
     padding: 4px 8px;
-    color: var(--d-04);
-    background-color: var(--d-09);
+    color: darken($primary-light, 10%);
+    background-color: $primary-mid;
     border-radius: 5px;
     font-size: 0.85rem;
 }

@@ -3,25 +3,11 @@
 // Empty front matter block ensures that Jekyll processes this file.
 
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Open+Sans&family=Raleway:wght@500&display=swap'); // fonts
+@import 'general/config';
 @import 'general/general';
-@import 'general/colors';
-@import 'general/properties';
 @import 'components/topnav';
 @import 'components/footer';
 @import 'components/container';
 @import 'pages/index';
 @import 'pages/portfolio';
 @import 'pages/contact';
-
-// @import 'general/themes';
-// @import 'pages/index';
-// @import 'pages/experience';
-// @import 'components/cardGrid';
-// @import 'components/card';
-// @import 'pages/contact';
-// @import 'blog/posts';
-// @import 'components/button';
-// @import 'components/collapsible';
-// @import 'components/tag';
-// @import 'components/tooltip';
-// @import 'general/highlight';
