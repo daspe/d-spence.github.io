@@ -1,25 +1,24 @@
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     background: $grad-color;
     box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.4);
     width: 100%;
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
 .copyright {
     grid-column-start: 2;
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    padding: 10px;
+    place-self: center;
     color: darken($primary-light, 30%);
+    padding: 10px;
 }
 
 .terminal {
     grid-column-start: 3;
-    justify-self: center;
-    margin-left: auto;
-    padding: 10px;
+    place-self: center end;
 }
 
 .terminal ion-icon {
