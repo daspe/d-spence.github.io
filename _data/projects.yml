@@ -23,7 +23,7 @@
   source-url: "https://github.com/d-spence/void-notes"
   api-url: "https://void-notes-api.herokuapp.com/"
   api-source-url: "https://github.com/d-spence/void-notes-api"
-  desc: "Full-stack React app for temporary and anonymous notes. Notes expire after 30 days unless renewed and login is done by randomly generated access key. Uses an API for database storage, retreival, updates and other operations."
+  desc: "Full-stack React app for temporary and anonymous notes. Notes expire after 30 days unless renewed and login is done by randomly generated access key. Uses an API for database storage, retrieval, updates and other operations."
   footnote: "*"
   tech:
     - "JavaScript"
