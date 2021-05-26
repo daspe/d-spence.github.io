@@ -46,10 +46,12 @@
 
     &-home-link {
         &:hover, &:focus {
-            color: $highlight-color;
-
             .navbar-logo #path0 {
                 fill: $highlight-color;
+            }
+
+            .navbar-logo-text {
+                color: $highlight-color;
             }
         }
     }
@@ -71,6 +73,8 @@
         &-text {
             font-family: 'Raleway', sans-serif;
             font-size: 1.5rem;
+            color: lighten($primary-mid, 15%);
+            transition: 0.2s;
         }
     }
 

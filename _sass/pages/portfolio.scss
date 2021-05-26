@@ -1,61 +1,64 @@
-#portfolio {
+.pf {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 10px;
     grid-auto-flow: row;
+    gap: 20px;
+
+    &-heading {
+        border-bottom: 1px solid $primary-mid;
+    }
+
+    &-subheading {
+        padding: 5px;
+    }
+
+    &-grid-sm, &-grid-md, &-grid-lg {
+        grid-column: span 1;
+        align-self: start;
+    }
+
+    &-item {
+        padding: 0 0 10px 10px;
+
+        a {
+            display: inline-flex;
+            align-items: center;
+
+            ion-icon {
+                padding-right: 3px;
+            }
+        }
+    }
+
+    &-item-name {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    &-tech {
+        padding: 10px 0px;
+    }
 }
 
-.pf-heading {
-    border-bottom: 1px solid $primary-mid;
-}
-
-.pf-subheading {
-    padding: 5px;
-}
-
-.pf-grid-sm, .pf-grid-md, .pf-grid-lg {
-    grid-column: span 1;
-    align-self: start;
-}
-
-.project-tech {
-    padding: 10px 0px;
-}
-
-.pf-item {
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-
-.pf-item-name {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-#pf-footnote {
+#footnote {
     font-size: 0.7rem;
 }
 
 // For screens 700px or greater
 @media screen and (min-width: 700px) {
-    #portfolio {
+    .pf {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 20px;
-    }
 
-    .pf-grid-sm {
-        grid-column: span 1;
-        align-self: start;
-    }
-    
-    .pf-grid-md {
-        grid-column: span 2;
-        align-self: start;
-    }
-    
-    .pf-grid-lg {
-        grid-column: span 3;
-        align-self: start;
+        &-grid-sm {
+            grid-column: span 1;
+        }
+
+        &-grid-md {
+            grid-column: span 2;
+        }
+
+        &-grid-lg {
+            grid-column: span 3;
+        }
     }
 }

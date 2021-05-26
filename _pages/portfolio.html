@@ -7,7 +7,7 @@ permalink: /portfolio
 
 <div class="container">
   <h1>Portfolio</h1>
-  <div id="portfolio">
+  <div class="pf">
     <!-- Projects -->
     <div class="fancy-container pf-grid-lg">
       <h3 class="pf-heading">Projects</h1>
@@ -15,29 +15,39 @@ permalink: /portfolio
         <h4 class="pf-subheading">{{project.name}}</h4>
         <div class="pf-item">
         {% if project.url %}
-          <a class="button" href={{project.url}} target="_blank">Link</a>
+          <a class="button" href={{project.url}} target="_blank">
+            <ion-icon name="navigate"></ion-icon> Link
+          </a>
         {% endif %}
         {% if project.video-url %}
-          <a class="button" href={{project.video-url}} target="_blank">Video</a>
+          <a class="button" href={{project.video-url}} target="_blank">
+            <ion-icon name="film-outline"></ion-icon> Video
+          </a>
         {% endif %}
         {% if project.source-url %}
-          <a class="button" href={{project.source-url}} target="_blank">Source</a>
+          <a class="button" href={{project.source-url}} target="_blank">
+            <ion-icon name="code"></ion-icon><span>Source</span>
+          </a>
         {% endif %}
         {% if project.api-url %}
-          <a class="button" href={{project.api-url}} target="_blank">API</a>
+          <a class="button" href={{project.api-url}} target="_blank">
+            <ion-icon name="server"></ion-icon><span>API</span>
+          </a>
         {% endif %}
         {% if project.api-source-url %}
-          <a class="button" href={{project.api-source-url}} target="_blank">API Source</a>
+          <a class="button" href={{project.api-source-url}} target="_blank">
+            <ion-icon name="code"></ion-icon><span>API Source</span>
+          </a>
         {% endif %}
-          <p>{{project.desc}}<a href="#pf-footnote">{{project.footnote}}</a></p>
-          <div class="project-tech">
+          <p>{{project.desc}}<a href="#footnote">{{project.footnote}}</a></p>
+          <div class="pf-tech">
           {% for tech in project.tech %}
             <span class="badge">{{tech}}</span>
           {% endfor %}
           </div>
         </div>
       {% endfor %}
-      <div id="pf-footnote">
+      <div id="footnote">
         <p >
           * Apps may load slowly or require a refresh when accessed.  
           These apps use a free hosting service and sleep when not in use.

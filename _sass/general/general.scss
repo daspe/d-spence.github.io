@@ -67,7 +67,7 @@ ul, ol {
     display: inline-block;
     margin: 4px 2px;
     padding: 4px 8px;
-    color: darken($primary-light, 10%);
+    color: $primary-light;
     background-color: $primary-mid;
     border-radius: 5px;
     font-size: 0.85rem;

@@ -19,18 +19,17 @@
     }
 }
 
-.email-icon,
-.social-network-icon {
-    flex: 1;
-    padding: 5px;
-    max-width: 100px;
-    height: 50px;
-}
-
 .email-button-text,
 .social-network-name {
     flex: 1;
     text-align: center;
     margin: auto;
     font-size: 1.1rem;
+}
+
+ion-icon.email-icon,
+ion-icon.social-network-icon {
+    padding: 5px;
+    font-size: 48px;
+    color: $primary-color;
 }
