@@ -32,6 +32,7 @@ leetcode_url: "https://leetcode.com/dspence/"
 indeed_url: "https://my.indeed.com/p/dans-8qtz53n"
 
 # Build settings
+timezone: America/Chicago
 theme: null # default: minima
 plugins:
   - jekyll-feed
