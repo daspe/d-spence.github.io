@@ -12,11 +12,6 @@
         padding: 5px;
     }
 
-    &-grid-sm, &-grid-md, &-grid-lg {
-        grid-column: span 1;
-        align-self: start;
-    }
-
     &-item {
         padding: 0 0 10px 10px;
 
@@ -40,6 +35,14 @@
     }
 }
 
+#pf-websites .button-bar {
+    margin: 12px 0 8px;
+
+    ion-icon {
+        margin-right: 10px;
+    }
+}
+
 #footnote {
     font-size: 0.7rem;
 }
@@ -47,18 +50,33 @@
 // For screens 700px or greater
 @media screen and (min-width: 700px) {
     .pf {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: auto;
+        justify-items: stretch;
+    }
 
-        &-grid-sm {
-            grid-column: span 1;
-        }
+    #pf-projects {
+        grid-column: span 3;
+        grid-row: span 8;
+    }
 
-        &-grid-md {
-            grid-column: span 2;
-        }
+    #pf-skills {
+        grid-column: span 1;
+        grid-row: span 4;
+    }
 
-        &-grid-lg {
-            grid-column: span 3;
-        }
+    #pf-websites {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    #pf-education {
+        grid-column: span 2;
+        grid-row: span 3;
+    }
+
+    #pf-experience {
+        grid-column: span 2;
+        grid-row: span 3;
     }
 }

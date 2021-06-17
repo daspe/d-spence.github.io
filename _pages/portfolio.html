@@ -9,7 +9,7 @@ permalink: /portfolio
   <h1>Portfolio</h1>
   <div class="pf">
     <!-- Projects -->
-    <div class="fancy-container pf-grid-lg">
+    <div id="pf-projects" class="fancy-container">
       <h3 class="pf-heading">Projects</h1>
       {% for project in site.data.projects %}
         <h4 class="pf-subheading">{{project.name}}</h4>
@@ -56,7 +56,7 @@ permalink: /portfolio
     </div>
 
     <!-- Skills -->
-    <div class="fancy-container pf-grid-sm">
+    <div id="pf-skills" class="fancy-container">
       <h3 class="pf-heading">Skills</h4>
         {% for item in site.data.skills %}
           <h4 class="pf-subheading">{{item.category}}</h4>
@@ -68,8 +68,19 @@ permalink: /portfolio
         {% endfor %}
     </div>
 
+    <!-- Other Websites -->
+    <div id="pf-websites" class="fancy-container">
+      <h3 class="pf-heading">Other Websites</h3>
+      <a class="button button-bar" href="https://dspence.net/websites" target="_blank">
+        <ion-icon name="globe"></ion-icon><span>View Websites</span>
+      </a>
+      <p>
+        Contains a few smaller sites I've created.
+      </p>
+    </div>
+
     <!-- Education -->
-    <div class="fancy-container pf-grid-md">
+    <div id="pf-education" class="fancy-container">
       <h3 class="pf-heading">Education</h3>
       <h4 class="pf-subheading">Courses</h4>
       {% for course in site.data.education.courses %}
@@ -99,7 +110,7 @@ permalink: /portfolio
     </div>
 
     <!-- Experience -->
-    <div class="fancy-container pf-grid-md">
+    <div id="pf-experience" class="fancy-container">
       <h3 class="pf-heading">Experience</h3>
         <h4 class="pf-subheading">Companies</h4>
         {% for company in site.data.experience.companies %}
