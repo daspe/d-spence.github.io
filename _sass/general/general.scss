@@ -50,15 +50,15 @@ ul, ol {
     margin: 4px 2px;
     padding: 2px 8px;
     color: $primary-light;
-    background-color: darken($secondary-color, 10%);
+    background-color: lighten($primary-color, 10%);
     border: 1px solid $primary-dark;
     border-radius: 2px;
     transition: 0.2s;
 
     &:hover {
         color: $primary-light;
-        background-color: $secondary-color;
-        box-shadow: -3px 3px 0px $primary-mid;
+        background-color: lighten($primary-color, 25%);
+        box-shadow: -3px 3px 0px darken($primary-mid, 25%);
         transform: translate(3px, -3px);
     }
 
@@ -83,7 +83,7 @@ ul, ol {
     main {
         width: 100%;
         margin: 100px auto;
-        font-size: 1.0rem;
+        font-size: 1.1rem;
         line-height: 1.75;
     }
 }

@@ -6,19 +6,25 @@
 
 .fancy-container {
     padding: 10px;
-    background: $grad-color;
+    background: darken($primary-mid, 10%);
     border: 1px solid $primary-mid;
     border-radius: 2px;
     color: $primary-light;
     transition: 0.2s;
 
     h3, h4 {
-        color: lighten($highlight-color, 0%);
+        color: lighten($highlight-color, 20%);
+        transition: 0.2s;
     }
 
     &:hover {
+        background: lighten($primary-color, 20%);
         box-shadow: -5px 5px 0px $primary-mid;
         transform: translate(5px, -5px);
+
+        h3, h4 {
+            color: $highlight-color;
+        }
     }
 }
 
